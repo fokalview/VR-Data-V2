@@ -35,9 +35,6 @@ The following tasks and questions will drive the visualization and interaction d
 
 I’ve created a proof of concept visualization of this data. The visiualiatios range from stater plot, to data trees. 
 
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
-
----
 
 [![image](https://github.com/fokalview/VR-Data/blob/master/3panel.png)](https://vizhub.com/fokalview/f2e723cc55194e98ab325c524371c4e4)
 
@@ -119,17 +116,22 @@ I’ve created a proof of concept visualization of this data. The visiualiatios 
 </div>
 
 ---
+[Source – 3 Panel Spread](https://vizhub.com/fokalview/f2e723cc55194e98ab325c524371c4e4)
 
+[Source – PlayStation VR](https://vizhub.com/fokalview/0cc21ddd8b9c403b856b1dbe925a4ab5)
 
-Also, you can study the [source](https://raw.githubusercontent.com/curran/dataviz-project-template-proposal/master/README.md)](https://vizhub.com/fokalview/f2e723cc55194e98ab325c524371c4e4  
-https://vizhub.com/fokalview/0cc21ddd8b9c403b856b1dbe925a4ab5  
-https://vizhub.com/fokalview/16bb6b65f8894e7383ba5840939508d5  
-https://vizhub.com/fokalview/02c750bd8dea4c309fd682feb4ce7470  
-https://vizhub.com/fokalview/5325ee30f3aa4482bba707138034e637  
-https://vizhub.com/fokalview/0b4d4f422e2f4721b963b242b6388e84  
-https://vizhub.com/fokalview/772e7b2285d643cbaab3892a6d7d9300  
-https://vizhub.com/fokalview/634ce52577aa4d509d022628e38526c3
-) to figure out Markdown formatting. You can use the GitHub built-in editor to edit the document.
+[Source – HTC Vive](https://vizhub.com/fokalview/16bb6b65f8894e7383ba5840939508d5)
+
+[Source – Oculus](https://vizhub.com/fokalview/02c750bd8dea4c309fd682feb4ce7470)
+
+[Source – Assistive Tech](https://vizhub.com/fokalview/5325ee30f3aa4482bba707138034e637)
+
+[Source – VR Experience](https://vizhub.com/fokalview/0b4d4f422e2f4721b963b242b6388e84)
+
+[Source – Impact on Score](https://vizhub.com/fokalview/772e7b2285d643cbaab3892a6d7d9300)
+
+[Source – Engagement](https://vizhub.com/fokalview/634ce52577aa4d509d022628e38526c3)
+
 
 ## Open Questions
 
