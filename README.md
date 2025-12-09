@@ -1,11 +1,21 @@
-# Data Visualization Project Report  
-## A Multidataset Analysis of VR User Comfort, Risk Factors, and Behavioral Patterns
+# VR Data Visualization Project  
+A multidataset breakdown of VR engagement, comfort, and user patterns
 
 ---
 
 ## Abstract
+This project pulls together several independent VR datasets and turns them into a connected visualization system that helps explain how real people experience virtual reality. Instead of treating demographic data, headset usage, immersion scores, and assistive technology availability as separate stories, I combined them into one interactive environment using D3.js.
 
-This project analyzes virtual reality usage by synthesizing multiple datasets related to demographics, hardware adoption, immersion levels, motion sickness, emotional responses, and consumer behavior. By integrating diverse VR and AR data sources, the project identifies which factors most strongly influence user comfort, discomfort, and overall VR experience quality. Through both descriptive visualizations and predictive modeling, the study highlights the relationships between age, gender, device type, familiarity with VR, and emotional response patterns. The visual prototypes provide an interactive and comparative understanding of how different groups engage with VR, setting the foundation for improved user-centered design and risk mitigation strategies across VR platforms.
+The goal is simple. Understand what makes VR comfortable, what makes it uncomfortable, and how those factors shift depending on who you are and what you are using. The project uses scatter plots, radar charts, icon based filters, and responsive tooltips to create a clear picture of VR usage patterns across multiple populations. This work is both a technical demonstration and a practical exploration of how design and data can work together to support better VR decisions.
+
+---
+
+## Introduction
+VR is growing fast in entertainment, education, and training, but not everyone experiences it the same way. Some people get immersed. Others get sick. Some groups stay in VR longer and feel more comfortable. Some regions have strong access to assistive technology. Others barely have any.
+
+This project started because I wanted to make sense of all these differences in one place. I imported multiple CSVs, cleaned them, and built out a workflow that connects headset type, gender, age, session duration, motion sickness, immersion, and educational access. From there, I built interactive charts that let me filter, compare, and break down patterns that are not obvious when looking at each dataset alone.
+
+The entire visualization is designed around exploration. You can switch between datasets, filter the visuals by gender or headset, and highlight sections to understand exactly how different groups behave in VR. This project is part research, part portfolio work, and part personal curiosity about how VR affects people differently.
 
 ---
 
@@ -20,6 +30,28 @@ The project uses both descriptive visualizations and predictive modeling to unco
 ---
 
 ## Data
+`1`
+### 1. Virtual Reality in Education Impact  
+Tracks student age, gender, hours per week, engagement level, learning improvements, and instructor proficiency.  
+Helps explain how VR functions inside classrooms.
+
+### 2. Modified VR in Education Dataset  
+Adds stress levels, access to equipment, and collaboration indicators.  
+Useful for comparing educational environments.
+
+### 3. Assistive Technology Dataset  
+Global dataset from WHO regions that shows training availability across different assistive technology categories.  
+Gives clear geographic context for accessibility gaps.
+
+### 4. VR Experiences Dataset  
+Focuses on headset type, session duration, motion sickness, and immersion.  
+This dataset is the backbone for the interactive charts.
+
+### 5. Student Math and Portuguese Performance  
+Standard demographic and academic data for multiple schools.  
+Used for comparisons and additional modeling opportunities.
+
+All data sources came from Kaggle.
 
 The data I propose to visualize for my project is ... found ih the following locations: 
  - https://www.kaggle.com/datasets/lumaatabbaa/vr-eyes-emotions-dataset-vreed
@@ -29,6 +61,28 @@ The data I propose to visualize for my project is ... found ih the following loc
  - https://www.kaggle.com/datasets/szhao2020/vr-gaming-network-traffic
  - https://www.kaggle.com/datasets/programmer3/emotion-recognition-in-mobile-vr-films
  - https://www.kaggle.com/datasets/ilokabenneth/augmented-reality-consumer-behaviour-consumer-enga
+
+
+
+## Methodology
+
+### Data Cleaning and Integration
+I standardized columns like engagement levels, gender labels, and headset names. Then I pulled the datasets together into a shared D3 structure so I could filter them consistently. The most challenging part was dealing with different scales and sample sizes, especially for gender groups with fewer entries.
+
+### Visual Architecture
+I used the same filtering logic across all visuals. This keeps user interactions predictable.
+
+The main components include:  
+• Scatter plot showing engagement vs hours of usage  
+• Radar chart showing immersion, duration, motion sickness, and average age grouped by gender  
+• Headset filters that update the visuals instantly  
+• Gender filters that change the shape of the radar and scatter plot  
+• Hover interactions that highlight sections and dim the rest  
+• Icons that sit outside the main chart area for clarity
+
+### Predictive Thinking
+While the final project is visualization focused, the structure supports future modeling. Features like gender, duration, age, headset type, and immersion are already aligned for regression work.
+
 
 ## Questions & Tasks
 
@@ -40,6 +94,61 @@ The data I propose to visualize for my project is ... found ih the following loc
 PlayStation VR has the largest user base. HTC users tend to have longer sessions and lower motion sickness. Oculus users fall between the two.
 
 ---
+
+
+## Visualizations
+
+### Engagement Scatter Plot  
+Shows how VR engagement shifts by device and demographic group. The filters allow you to compare different headsets and see where sickness or comfort trends start forming.
+
+### Radar Chart  
+Each gender group is represented with the same four metrics:  
+• Average Age  
+• Motion Sickness  
+• Duration  
+• Immersion  
+
+Users can cycle through male, female, and other to see how their profiles shift. Hovering highlights each section with clear tooltips.
+
+### Headset Comparison Panels  
+PlayStation VR, HTC, and Oculus each show different comfort and immersion behaviors.  
+HTC users have longer sessions.  
+PlayStation has the most users.  
+Oculus sits in the middle for both duration and sickness.
+
+### Assistive Technology View  
+Breaks down global access to technology training by region.  
+Regions with higher funding have stronger adoption.  
+Regions with limited support show clear gaps.
+
+### Impact and Education Charts  
+Links student engagement and VR adoption.  
+Shows which groups improve academically when VR is available.
+
+Screenshots of these visuals are included throughout the project.
+
+
+## Key Findings
+
+### Comfort and Discomfort Patterns  
+Younger male users show higher motion sickness.  
+Female users stay longer and report smoother experiences.  
+Other gender groups show the widest range due to sample size.
+
+### Headset Behavior Differences  
+HTC supports longer sessions with lower sickness.  
+PlayStation dominates in user count.  
+Oculus trends toward balanced outcomes.
+
+### Immersion vs Duration  
+Longer sessions raise both immersion and discomfort.  
+Frequent users adapt over time.
+
+### Geographic Accessibility  
+Assistive technology training is uneven globally.  
+Regions with stronger infrastructure support VR adoption more effectively.
+
+
 
 ### 2. What demographic factors predict comfort or discomfort in VR?  
 **Finding:**  
@@ -249,12 +358,57 @@ I have made a scatter plot
 I was able to finlally import the docutmetns!
 I was able to start iterateing the scater pl;ot and data into something abiut more unique and suited toward the data that i have. 
 
+## Key Findings
+
+### Comfort and Discomfort Patterns  
+Younger male users show higher motion sickness.  
+Female users stay longer and report smoother experiences.  
+Other gender groups show the widest range due to sample size.
+
+### Headset Behavior Differences  
+HTC supports longer sessions with lower sickness.  
+PlayStation dominates in user count.  
+Oculus trends toward balanced outcomes.
+
+### Immersion vs Duration  
+Longer sessions raise both immersion and discomfort.  
+Frequent users adapt over time.
+
+### Geographic Accessibility  
+Assistive technology training is uneven globally.  
+Regions with stronger infrastructure support VR adoption more effectively.
+
+
+## Why This Project Matters
+VR design needs to be based on how people actually experience it, not how we hope they experience it. This project makes those patterns clear. Developers can use these insights to build safer and more immersive environments. Educators can see how VR affects learning. Policy makers can identify where support is missing.
+
+At the same time, the project shows how multidataset visualizations can tell a bigger story than any single dataset can.
+
+
+## Future Work
+
+• Build a predictive comfort model using regression  
+• Add session frequency to the scatter plot  
+• Expand the radar chart to include new variables  
+• Develop a full dashboard for VR decision makers  
+• Compare VR data with AR datasets  
+• Add time series analysis for headset adoption trends  
+
+The architecture is already set up for expansion.
+
+
+## Project Links
+
+### VizHub Projects  
+Insert URLs here
+
+### GitHub Repository  
+https://github.com/fokalview/VR-Data
+
+
 ## Conclusion
+After combining all these datasets and building out the visuals, the patterns became clear. VR is not a one size fits all experience. Different headsets, demographics, and educational contexts all shape user outcomes.
 
-This multidataset VR analysis highlights strong relationships between user demographics, headset design, behavioral tendencies, and the comfort or discomfort people feel in virtual environments. Patterns across age, gender, and experience reveal that VR outcomes are far from uniform. Device choice plays a significant role, and behavioral factors such as session duration and familiarity amplify or reduce discomfort risk.
+This project helped me understand those patterns in a structured way and strengthened my skills in D3, JavaScript, data cleaning, and visual architecture. It also proved how interactive data work can reveal insights that static charts never will.
 
-By structuring the project around both descriptive comparisons and predictive modeling, the work lays a foundation for future studies in VR ergonomics, comfort optimization, and personalized VR experiences. The visual prototypes make these findings accessible and interpretable, translating complex VR datasets into clear insights about how people truly interact with virtual environments.
-
-This analysis provides a starting point for deeper exploration into predictive modeling, cross-device comfort optimization, and understanding the behavioral elements that shape healthy, enjoyable VR engagement.
-
-
+This is version one. There is more I want to build, but the foundation is solid and the insights are real.
