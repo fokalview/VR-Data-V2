@@ -10,6 +10,43 @@ This project pulls together several independent VR datasets and turns them into 
 The goal is simple. Understand what makes VR comfortable, what makes it uncomfortable, and how those factors shift depending on who you are and what you are using. The project uses scatter plots, radar charts, icon based filters, and responsive tooltips to create a clear picture of VR usage patterns across multiple populations. This work is both a technical demonstration and a practical exploration of how design and data can work together to support better VR decisions.
 
 ---
+---
+
+## At a Glance
+
+**Tech Stack**  
+- D3.js  
+- JavaScript  
+- CSV based data pipeline  
+- VizHub for hosting and rendering  
+
+**Core Visuals**  
+- Engagement scatter plot  
+- Users demographic bar chart  
+- Three headset comparison panels  
+- Gender based radar chart  
+- Assistive technology regional view  
+
+**Key Metrics Tracked**  
+- Immersion level  
+- Motion sickness  
+- Session duration  
+- Gender patterns  
+- Headset differences  
+- Engagement levels in education  
+- Regional training access  
+
+**Main Questions Answered**  
+- How the three headsets differ in comfort and immersion  
+- How age and gender shape VR outcomes  
+- What usage patterns predict higher immersion or sickness  
+- How assistive tech varies across regions  
+- How many students use VR and how it affects engagement  
+
+**Project Purpose**  
+Turn multiple VR datasets into a unified interactive system that shows how different groups experience VR and why those experiences differ. This project is part research, part visual architecture, and part portfolio ready storytelling.
+
+---
 
 ## Introduction
 
