@@ -256,7 +256,14 @@ Interactions:
 - Option to show only VR users  
 - Hover tooltips with detailed student level information  
 
-This view connects directly to questions about how usage relates to engagement and which groups cluster at certain engagement levels.
+---
+
+[![image](https://github.com/fokalview/VR-Data-V2/blob/master/Engagement.jpg)](https://vizhub.com/fokalview/634ce52577aa4d509d022628e38526c3)
+
+<div align="center">
+
+### Engagement View
+</div>
 
 ---
 
@@ -275,6 +282,15 @@ Interactions:
 - Compare bars within each age group  
 
 This helps answer questions about how user counts shift across demographic categories.
+
+---
+
+[![image](https://github.com/fokalview/VR-Data-V2/blob/master/Users.jpg)](https://vizhub.com/fokalview/634ce52577aa4d509d022628e38526c3)
+
+<div align="center">
+
+### User View
+</div>
 
 ---
 
