@@ -380,7 +380,7 @@ A view built from the assistive technology dataset that focuses on regional acce
 
 ---
 
-[![image](https://github.com/fokalview/VR-Data-V2/blob/master/Assistive%20Tech%20World%20Map.jpg)](https://vizhub.com/fokalview/634ce52577aa4d509d022628e38526c3)
+[![image](https://github.com/fokalview/VR-Data-V2/blob/master/Assistive%20Tech%20World%20Map.jpg)](https://vizhub.com/fokalview/5325ee30f3aa4482bba707138034e637)
 
 <div align="center">
 
@@ -389,7 +389,7 @@ A view built from the assistive technology dataset that focuses on regional acce
 
 ---
 
-[![image](https://github.com/fokalview/VR-Data-V2/blob/master/Training%20Content.jpg)](https://vizhub.com/fokalview/634ce52577aa4d509d022628e38526c3)
+[![image](https://github.com/fokalview/VR-Data-V2/blob/master/Training%20Content.jpg)](https://vizhub.com/fokalview/5325ee30f3aa4482bba707138034e637)
 
 <div align="center">
 
@@ -423,7 +423,7 @@ These charts are used to answer questions around how many students use VR and ho
 
 ---
 
-[![image](https://github.com/fokalview/VR-Data-V2/blob/master/Users.jpg)](https://vizhub.com/fokalview/634ce52577aa4d509d022628e38526c3)
+[![image](https://github.com/fokalview/VR-Data-V2/blob/master/Impact%20of%20Virtual%20Reality%20on%20Education.jpg)](https://vizhub.com/fokalview/772e7b2285d643cbaab3892a6d7d9300)
 
 <div align="center">
 
