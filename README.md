@@ -340,7 +340,8 @@ This supports questions about gender based differences in VR outcomes and how de
 
 --- 
 
-## [🎥 Headset Panel, Sum, and Radar Video Demo]([https://youtu.be/s6zNhENpXNE](https://youtu.be/pGJ-43LL9mg)
+## [🎥 Headset Panel, Sum, and Radar Video Demo](https://youtu.be/s6zNhENpXNE)
+
 
 ---
 
@@ -400,7 +401,35 @@ These charts are used to answer questions around how many students use VR and ho
 ---
 
 ## [🎥 Impact and Education Video Demo](https://youtu.be/hi8rmXKiGMw)
+
 ---
+
+### VR Experience Charts
+
+These visuals analyze user behavior and headset performance across comfort, immersion, and session metrics:
+
+- Compare motion sickness, immersion, and duration across gender and headset type  
+- Visualize demographic breakdowns using tree and radar charts  
+- Allow real-time filtering by headset and gender  
+- Enable hover tooltips for detailed insight on each metric  
+
+This view helps answer questions about how headset choice, gender, and usage patterns influence VR comfort and immersion.
+
+---
+
+[![image](https://github.com/fokalview/VR-Data-V2/blob/master/VR%20Experience%20Analystis.jpg)](https://vizhub.com/fokalview/0b4d4f422e2f4721b963b242b6388e84)
+
+<div align="center">
+
+### VR Experience Dashboard  
+</div>
+
+---
+
+## [🎥 VR Experience Video Demo](https://youtube.com/shorts/Mfp9m2QRxD8)
+
+---
+
 
 ## Key Findings
 
