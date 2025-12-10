@@ -294,7 +294,7 @@ This helps answer questions about how user counts shift across demographic categ
 
 ---
 
-## [🎥 Engagement and USer Video Demo](https://youtu.be/s6zNhENpXNE)
+## [🎥 Engagement and USer Video Demo](https://youtu.be/s6zNhENpXNE) 
 
 ---
 
@@ -326,18 +326,12 @@ These views support comparisons of comfort and usage behavior across headsets an
 
 --- 
 
-
 [![image](https://github.com/fokalview/VR-Data-V2/blob/master/panelsum.jpg)](https://vizhub.com/fokalview/f2e723cc55194e98ab325c524371c4e4)
 
 <div align="center">
 
 ### Headset Sum Comparison Panel
 </div>
-
---- 
-<p align="center">
-  <img src="YOUR_IMAGE_PATH_HERE" alt="VR Data Visualization Project Title Slide" width="750">
-</p>
 
 ---
 
@@ -358,7 +352,6 @@ This supports questions about gender based differences in VR outcomes and how de
 
 --- 
 
-
 [![image](https://github.com/fokalview/VR-Data-V2/blob/master/radar.jpg)](https://vizhub.com/fokalview/f2e723cc55194e98ab325c524371c4e4)
 
 <div align="center">
@@ -368,9 +361,7 @@ This supports questions about gender based differences in VR outcomes and how de
 
 --- 
 
-<p align="center">
-  <img src="YOUR_IMAGE_PATH_HERE" alt="VR Data Visualization Project Title Slide" width="750">
-</p>
+## [🎥 Headset Panel, Sum, and Radar Video Demo]([https://youtu.be/s6zNhENpXNE](https://youtu.be/pGJ-43LL9mg))
 
 ---
 
@@ -402,19 +393,9 @@ A view built from the assistive technology dataset that focuses on regional acce
 
 ---
 
-## 🎥 Video Demo (Play)
+
+## [🎥 Assistive Technology Video Demo](https://youtube.com/shorts/JS6X6SIPV1M)
 ---
-
-<video controls width="750">
-  <source src="https://raw.githubusercontent.com/fokalview/VR-Data-V2/master/Assistive%20Tech%20World%20Map.mp4" type="video/mp4">
-  Your browser does not support embedded videos.
-</video>
-
----
-
-[Download / View the full project walkthrough video (Assistive Tech World Map)](https://github.com/fokalview/VR-Data-V2/blob/master/Assistive%20Tech%20World%20Map.avi)
-
-> Note: Some browsers may prompt to download the video file.
 
 ---
 
@@ -439,10 +420,7 @@ These charts are used to answer questions around how many students use VR and ho
 
 ---
 
-<p align="center">
-  <img src="YOUR_IMAGE_PATH_HERE" alt="VR Data Visualization Project Title Slide" width="750">
-</p>
-
+## [🎥 Impact and Education Video Demo](https://youtu.be/hi8rmXKiGMw)
 ---
 
 ## Key Findings
