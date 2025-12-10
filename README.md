@@ -297,6 +297,12 @@ These views support comparisons of comfort and usage behavior across headsets an
 
 ---
 
+<p align="center">
+  <img src="YOUR_IMAGE_PATH_HERE" alt="VR Data Visualization Project Title Slide" width="750">
+</p>
+
+---
+
 ### Radar Chart
 
 A radar chart that compares average metrics by gender:
@@ -314,6 +320,12 @@ This supports questions about gender based differences in VR outcomes and how de
 
 ---
 
+<p align="center">
+  <img src="YOUR_IMAGE_PATH_HERE" alt="VR Data Visualization Project Title Slide" width="750">
+</p>
+
+---
+
 ### Assistive Technology View
 
 A view built from the assistive technology dataset that focuses on regional access and training availability.
@@ -321,6 +333,12 @@ A view built from the assistive technology dataset that focuses on regional acce
 - Breaks down training availability by region and country  
 - Highlights gaps and uneven distribution across regions  
 - Connects directly to questions about spatial patterns and where the United States sits relative to other regions  
+
+---
+
+<p align="center">
+  <img src="YOUR_IMAGE_PATH_HERE" alt="VR Data Visualization Project Title Slide" width="750">
+</p>
 
 ---
 
@@ -336,6 +354,12 @@ These charts are used to answer questions around how many students use VR and ho
 
 ---
 
+<p align="center">
+  <img src="YOUR_IMAGE_PATH_HERE" alt="VR Data Visualization Project Title Slide" width="750">
+</p>
+
+---
+
 ## Key Findings
 
 ### Comfort and Discomfort Patterns
@@ -345,6 +369,12 @@ These charts are used to answer questions around how many students use VR and ho
 - Other gender groups show the widest range in values, partly due to smaller sample sizes.  
 
 These patterns answer questions about how age and gender influence motion sickness, immersion, and duration.
+
+---
+
+<p align="center">
+  <img src="YOUR_IMAGE_PATH_HERE" alt="VR Data Visualization Project Title Slide" width="750">
+</p>
 
 ---
 
@@ -358,12 +388,24 @@ These findings address how the three headsets differ in comfort and immersion an
 
 ---
 
+<p align="center">
+  <img src="YOUR_IMAGE_PATH_HERE" alt="VR Data Visualization Project Title Slide" width="750">
+</p>
+
+---
+
 ### Immersion vs Duration
 
 - Longer sessions increase both immersion and discomfort at the same time.  
 - Frequent users adapt to VR and tend to report lower sickness over time.  
 
 These patterns answer questions about behavioral factors and how duration shapes both comfort and immersion.
+
+---
+
+<p align="center">
+  <img src="YOUR_IMAGE_PATH_HERE" alt="VR Data Visualization Project Title Slide" width="750">
+</p>
 
 ---
 
