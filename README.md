@@ -335,6 +335,12 @@ A view built from the assistive technology dataset that focuses on regional acce
 - Connects directly to questions about spatial patterns and where the United States sits relative to other regions  
 
 ---
+## 🎥 Video Demo
+
+[Download / View the full project walkthrough video (Assistive Tech World Map)](https://github.com/fokalview/VR-Data-V2/blob/master/Assistive%20Tech%20World%20Map.avi)
+
+> Note: Some browsers may prompt to download the video file.
+
 
 <p align="center">
   <img src="YOUR_IMAGE_PATH_HERE" alt="VR Data Visualization Project Title Slide" width="750">
