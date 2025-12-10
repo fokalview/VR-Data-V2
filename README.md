@@ -361,7 +361,7 @@ This supports questions about gender based differences in VR outcomes and how de
 
 --- 
 
-## [🎥 Headset Panel, Sum, and Radar Video Demo]([https://youtu.be/s6zNhENpXNE](https://youtu.be/pGJ-43LL9mg))
+## [🎥 Headset Panel, Sum, and Radar Video Demo]([https://youtu.be/s6zNhENpXNE](https://youtu.be/pGJ-43LL9mg)
 
 ---
 
@@ -435,12 +435,6 @@ These patterns answer questions about how age and gender influence motion sickne
 
 ---
 
-<p align="center">
-  <img src="YOUR_IMAGE_PATH_HERE" alt="VR Data Visualization Project Title Slide" width="750">
-</p>
-
----
-
 ### Headset Behavior Differences
 
 - HTC Vive supports longer sessions with lower average sickness.  
@@ -449,7 +443,7 @@ These patterns answer questions about how age and gender influence motion sickne
 
 These findings address how the three headsets differ in comfort and immersion and confirm that headset model does correlate with user experience.
 
-
+---
 
 ### Immersion vs Duration
 
@@ -457,12 +451,6 @@ These findings address how the three headsets differ in comfort and immersion an
 - Frequent users adapt to VR and tend to report lower sickness over time.  
 
 These patterns answer questions about behavioral factors and how duration shapes both comfort and immersion.
-
----
-
-<p align="center">
-  <img src="YOUR_IMAGE_PATH_HERE" alt="VR Data Visualization Project Title Slide" width="750">
-</p>
 
 ---
 
