@@ -497,6 +497,19 @@ Hierarchy showing:
 
 This informed the VR Experience tree layout.
 
+Here are a few examples of estimates layouts. 
+
+<div align="center">
+
+[![Sketch Page 1](https://github.com/fokalview/VR-Data-V2/blob/master/sketch_Page_1.jpg)](https://github.com/fokalview/VR-Data-V2/blob/master/sketch_Page_1.jpg)
+
+[![Sketch Page 2](https://github.com/fokalview/VR-Data-V2/blob/master/sketch_Page_2.jpg)](https://github.com/fokalview/VR-Data-V2/blob/master/sketch_Page_2.jpg)
+
+[![Sketch Page 3](https://github.com/fokalview/VR-Data-V2/blob/master/sketch_Page_3.jpg)](https://github.com/fokalview/VR-Data-V2/blob/master/sketch_Page_3.jpg)
+
+</div>
+
+
 ---
 
 ### Comfort Severity Heatmap
@@ -554,7 +567,7 @@ It also shows how multidataset visualizations can tell a bigger and more honest 
 
 I have created a set of proof of concept visualizations for this data. These range from scatter plots to hierarchical trees and radar charts.
 
-[![image](https://github.com/fokalview/VR-Data/blob/master/3panel.png)](https://vizhub.com/fokalview/f2e723cc55194e98ab325c524371c4e4)
+[![image](https://github.com/fokalview/VR-Data/blob/master/3panel.png)]
 
 <div align="center">
 
@@ -564,7 +577,7 @@ I have created a set of proof of concept visualizations for this data. These ran
 
 ---
 
-[![image](https://github.com/fokalview/VR-Data/blob/master/PlaystationVR.png)](https://vizhub.com/fokalview/0cc21ddd8b9c403b856b1dbe925a4ab5)
+[![image](https://github.com/fokalview/VR-Data/blob/master/PlaystationVR.png)]
 
 <div align="center">
 
@@ -574,7 +587,7 @@ I have created a set of proof of concept visualizations for this data. These ran
 
 ---
 
-[![image](https://github.com/fokalview/VR-Data/blob/master/HTC.png)](https://vizhub.com/fokalview/16bb6b65f8894e7383ba5840939508d5)
+[![image](https://github.com/fokalview/VR-Data/blob/master/HTC.png)]
 
 <div align="center">
 
@@ -584,7 +597,7 @@ I have created a set of proof of concept visualizations for this data. These ran
 
 ---
 
-[![image](https://github.com/fokalview/VR-Data/blob/master/oculus.png)](https://vizhub.com/fokalview/02c750bd8dea4c309fd682feb4ce7470)
+[![image](https://github.com/fokalview/VR-Data/blob/master/oculus.png)]
 
 <div align="center">
 
@@ -594,9 +607,7 @@ I have created a set of proof of concept visualizations for this data. These ran
 
 ---
 
-[![image](https://github.com/fokalview/VR-Data/blob/master/Assitivetech.png)](https://vizhub.com/fokalview/5325ee30f3aa4482bba707138034e637)
-
-<div align="center">
+[![image](https://github.com/fokalview/VR-Data/blob/master/Assitivetech.png)]
 
 ### Assistive Technology
 
@@ -604,8 +615,7 @@ I have created a set of proof of concept visualizations for this data. These ran
 
 ---
 
-[![image](https://github.com/fokalview/VR-Data/blob/master/VRExp.png)](https://vizhub.com/fokalview/0b4d4f422e2f4721b963b242b6388e84)
-
+[![image](https://github.com/fokalview/VR-Data/blob/master/VRExp.png)]
 <div align="center">
 
 ### VR Experience
@@ -614,7 +624,7 @@ I have created a set of proof of concept visualizations for this data. These ran
 
 ---
 
-[![image](https://github.com/fokalview/VR-Data/blob/master/Immerion%20SCore.png)](https://vizhub.com/fokalview/772e7b2285d643cbaab3892a6d7d9300)
+[![image](https://github.com/fokalview/VR-Data/blob/master/Immerion%20SCore.png)]
 
 <div align="center">
 
@@ -624,7 +634,7 @@ I have created a set of proof of concept visualizations for this data. These ran
 
 ---
 
-[![image](https://github.com/fokalview/VR-Data/blob/master/Engagment.png)](https://vizhub.com/fokalview/634ce52577aa4d509d022628e38526c3)
+[![image](https://github.com/fokalview/VR-Data/blob/master/Engagment.png)]
 
 <div align="center">
 
@@ -681,18 +691,6 @@ These represent alternate ways to encode similar information or early tests of n
 - Add time based analysis where datasets support it, especially for adoption trends  
 
 The architecture is already set up for expansion. The next step is deeper modeling and more refined interaction design.
-
----
-
-## Project Links
-
-### VizHub Projects  
-
-(Insert final list of URLs or keep the links listed above in Prototypes and Open Questions.)
-
-### GitHub Repository  
-
-https://github.com/fokalview/VR-Data
 
 ---
 
