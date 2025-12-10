@@ -359,7 +359,7 @@ This supports questions about gender based differences in VR outcomes and how de
 
 <div align="center">
 
-### Headset Comparison Panel
+### Headset Radar Panel
 </div>
 
 --- 
@@ -380,11 +380,11 @@ A view built from the assistive technology dataset that focuses on regional acce
 
 ---
 
-[![image](https://github.com/fokalview/VR-Data-V2/blob/master/Assistive%20Tech%20World%20Map.jpg)](https://vizhub.com/fokalview/5325ee30f3aa4482bba707138034e637)
+[![image](https://github.com/fokalview/VR-Data-V2/blob/master/Assistive%20Techs%20World%20Map.jpg)](https://vizhub.com/fokalview/5325ee30f3aa4482bba707138034e637)
 
 <div align="center">
 
-### Assistive Technology View
+### Assistive World View
 </div>
 
 ---
