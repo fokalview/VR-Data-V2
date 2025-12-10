@@ -17,7 +17,7 @@ VR is growing fast in entertainment, education, and training, but not everyone e
 
 This project started because I wanted to make sense of all these differences in one place. I imported multiple CSVs, cleaned them, and built out a workflow that connects headset type, gender, age, session duration, motion sickness, immersion, and educational access. From there, I built interactive charts that let me filter, compare, and break down patterns that are not obvious when looking at each dataset alone.
 
-The entire visualization is designed around exploration. You can switch between datasets, filter the visuals by gender or headset, and highlight sections to understand exactly how different groups behave in VR. This project is part research, part portfolio work, and part personal curiosity about how VR affects people differently.
+The entire visualization is designed around exploration. You can switch between datasets, filter the visuals by gender or headset, and highlight sections to understand exactly how different groups behave in VR. This project is part research, part portfolio piece, and part personal curiosity about how VR affects people differently.
 
 ---
 
@@ -43,23 +43,48 @@ These three devices appear consistently in the tree views, headset comparison pa
 
 ## Research Questions
 
-This project is guided by a set of practical questions:
+This project is guided by a set of practical questions. For each one, I note how the current visualizations answer it.
 
-1. How do the three headsets differ in user demographics, comfort, and immersion?  
-2. Do age or gender influence motion sickness, immersion, or session duration?  
-3. What behavioral factors like duration or usage patterns shape comfort and immersion?  
-4. Are there geographic differences in assistive technology training and access?  
-5. Which features best predict a positive or negative VR experience if we move into modeling?  
-6. Which headset type appears most often in the dataset?  
-7. Are there meaningful gender based differences in VR outcomes?  
-8. Are there noticeable spatial or regional patterns when comparing datasets?  
-9. How do user counts shift across demographic categories such as age group or education level?  
-10. How does the United States compare to other regions in assistive technology access?  
-11. How many students in the education datasets actively use VR in education?  
-12. What patterns point to higher discomfort or risk in VR use?  
-13. Does headset model correlate with comfort, immersion, or session duration?
+1. **How do the three headsets differ in user demographics, comfort, and immersion**  
+   **Answer:** The three panel headset views and VR Experience visual show that PlayStation VR has the largest user base, HTC Vive users tend to have longer sessions with lower motion sickness, and Oculus Rift sits in the middle for both duration and sickness. Demographic splits by gender and age are visible inside the trees and radar chart.
 
-The visualizations and interactions in this project are designed to make these questions easier to explore.
+2. **Do age or gender influence motion sickness, immersion, or session duration**  
+   **Answer:** The radar chart and headset trees show that younger male users report higher motion sickness, female users tend to stay longer with smoother experiences, and the “Other” gender group has the widest spread due to a smaller sample. Age also shifts the balance of duration and sickness across groups.
+
+3. **What behavioral factors like duration or usage patterns shape comfort and immersion**  
+   **Answer:** The duration patterns in the VR Experience views and radar chart show that longer sessions increase both immersion and discomfort. Frequent users appear to adapt over time and report lower motion sickness compared to less frequent users.
+
+4. **Are there geographic differences in assistive technology training and access**  
+   **Answer:** The Assistive Technology view highlights strong regional differences. Regions with more resources and infrastructure report more consistent training availability. Under resourced regions show clear gaps.
+
+5. **Which features best predict a positive or negative VR experience if we move into modeling**  
+   **Answer:** The current project sets this up rather than fully training models. The visuals suggest that headset type, session duration, age, gender, and prior experience would be core features, because those are the variables that visibly track with comfort, immersion, and reported sickness.
+
+6. **Which headset type appears most often in the dataset**  
+   **Answer:** The headset comparison and trees show that PlayStation VR appears most often and has the largest user count in the VR Experience data.
+
+7. **Are there meaningful gender based differences in VR outcomes**  
+   **Answer:** Yes. The radar chart shows clear differences between male, female, and other genders in average motion sickness, duration, and immersion, with males skewing toward higher sickness, females toward longer and smoother sessions, and other gender users showing more variability.
+
+8. **Are there noticeable spatial or regional patterns when comparing datasets**  
+   **Answer:** The Assistive Technology view and region fields in the education datasets show patterns where more developed regions have better training and access, while other regions show patchy or limited availability.
+
+9. **How do user counts shift across demographic categories such as age group or education level**  
+   **Answer:** The Users view grouped bar chart shows how counts change as you move across age bands and education levels. You can see which age groups and levels are most represented and where participation drops off.
+
+10. **How does the United States compare to other regions in assistive technology access**  
+    **Answer:** In the Assistive Technology dataset, the United States falls into the higher access category compared to many other regions, matching the broader pattern that higher resource regions report more training availability.
+
+11. **How many students in the education datasets actively use VR in education**  
+    **Answer:** The Impact and Modified Education datasets include a `Usage_of_VR_in_Education` flag that lets you filter down to VR students. The Engagement and Users views use this to highlight VR users versus non-users, and visually show that VR users are a focused subset rather than the majority.
+
+12. **What patterns point to higher discomfort or risk in VR use**  
+    **Answer:** Higher risk patterns appear where younger users, higher session durations, and certain headset combinations line up with motion sickness scores at the upper end of the scale. These patterns are visible in the VR Experience views and radar chart.
+
+13. **Does headset model correlate with comfort, immersion, or session duration**  
+    **Answer:** Yes. The headset comparison views show that HTC Vive is correlated with longer sessions and relatively lower sickness, PlayStation VR has broad adoption with mixed comfort, and Oculus Rift sits in between for comfort and immersion.
+
+The visualizations and interactions in this project are designed to make these questions easier to explore and to surface clear, visual answers.
 
 ---
 
@@ -71,57 +96,64 @@ These are the main datasets that drive the current visualizations:
 
 1. **Virtual_Reality_in_Education_Impact.csv**  
    Student level VR usage and outcome data.  
-   - Student_ID  
-   - Age  
-   - Gender  
-   - EducationLevel / Grade_Level  
-   - Usage_of_VR_in_Education (Yes/No)  
-   - Hours_of_VR_Usage_Per_Week  
-   - Engagement_Level (1 to 5)  
-   - Improvement_in_Learning_Outcomes (Yes/No)  
-   - Instructor_VR_Proficiency  
-   - Region  
+   Key columns include:  
+   - `Student_ID`  
+   - `Age`  
+   - `Gender`  
+   - `EducationLevel` / `Grade_Level`  
+   - `Usage_of_VR_in_Education` (Yes / No)  
+   - `Hours_of_VR_Usage_Per_Week`  
+   - `Engagement_Level` (1 to 5)  
+   - `Improvement_in_Learning_Outcomes` (Yes / No)  
+   - `Instructor_VR_Proficiency`  
+   - `Region`  
 
 2. **Modified_Virtual_Reality_in_Education_Dataset.csv**  
    Education context and VR implementation details.  
-   - Age  
-   - EducationLevel  
-   - Usage_of_VR_in_Education  
-   - Hours_of_VR_Usage_Per_Week  
-   - Engagement_Level  
-   - Improvement_in_Learning_Outcomes  
-   - Instructor_VR_Proficiency  
-   - Access_to_VR_Equipment  
-   - Stress_Level_with_VR_Usage  
-   - Collab (collaboration indicator)  
+   Key columns include:  
+   - `Age`  
+   - `EducationLevel`  
+   - `Usage_of_VR_in_Education`  
+   - `Hours_of_VR_Usage_Per_Week`  
+   - `Engagement_Level`  
+   - `Improvement_in_Learning_Outcomes`  
+   - `Instructor_VR_Proficiency`  
+   - `Access_to_VR_Equipment`  
+   - `Stress_Level_with_VR_Usage`  
+   - `Collab` (collaboration indicator)  
 
-3. **Assistive technology.csv**  
+3. **assistive technology.csv**  
    Global assistive technology training availability.  
-   - ParentLocation (region)  
-   - Location (country)  
-   - Dim1 (training category)  
-   - Period (year)  
-   - Value (availability indicator)  
+   Key columns include:  
+   - `ParentLocation` (region)  
+   - `Location` (country)  
+   - `Dim1` (training category)  
+   - `Period` (year)  
+   - `Value` (availability indicator)  
 
 4. **Virtual Reality Experiences.csv**  
    User experience metrics for the three VR headsets.  
-   - UserID  
-   - Age  
-   - Gender (Male, Female, Other)  
-   - VRHeadset (PlayStation VR, HTC Vive, Oculus Rift)  
-   - Duration (minutes)  
-   - MotionSickness (1 to 10)  
-   - ImmersionLevel (1 to 5)  
+   Key columns include:  
+   - `UserID`  
+   - `Age`  
+   - `Gender` (Male, Female, Other)  
+   - `VRHeadset` (PlayStation VR, HTC Vive, Oculus Rift)  
+   - `Duration` (minutes)  
+   - `MotionSickness` (1 to 10)  
+   - `ImmersionLevel` (1 to 5)  
 
 5. **Student math and Portuguese datasets**  
-   Standard student demographic and academic performance for comparison.  
-   - student_id  
-   - sex  
-   - age  
+   Standard student demographic and academic performance for comparison and possible modeling.  
+   Common columns include:  
+   - `student_id`  
+   - `sex`  
+   - `age`  
    - family and study context  
    - failures and scores  
 
 These datasets are the ones directly used in the views that ship with this project.
+
+---
 
 ### Additional Reference Datasets Considered
 
@@ -142,23 +174,27 @@ All datasets are sourced from Kaggle.
 
 ### Data Cleaning and Integration
 
-I standardized columns like engagement level, gender labels, and headset names so the datasets could be combined or compared without confusion. I converted numeric fields where needed, handled Yes/No flags, and aligned scales for hours, engagement, and immersion.
+I standardized columns like engagement level, gender labels, and headset names so the datasets could be combined or compared without confusion. Numeric fields were converted where needed, Yes / No fields were normalized, and scales for hours, engagement, and immersion were aligned.
 
-Once the data was cleaned, I pulled it into a shared D3 based structure so filters and interactions could work the same way across multiple views. The main challenge was dealing with different sample sizes, especially for the "Other" gender group and for regions with fewer assistive technology records.
+Once the data was cleaned, I pulled it into a shared D3 based structure so filters and interactions could work the same way across multiple views. The main challenge was dealing with different sample sizes, especially for the Other gender group and regions with fewer assistive technology records.
+
+---
 
 ### Visual Architecture
 
 I used the same filtering logic across all visuals so user interactions feel consistent. The main components include:
 
 - Scatter plots showing engagement versus hours of VR usage  
-- Grouped bar charts to show user distribution across age and education levels  
-- Radar charts showing immersion, duration, motion sickness, and average age grouped by gender  
+- Grouped bar charts showing user distribution across age and education levels  
+- Radar charts showing immersion, duration, motion sickness, and average age by gender  
 - Headset filters that update the visuals instantly  
 - Gender filters that change the shape of the radar and scatter plots  
 - Hover interactions that highlight specific elements and dim the rest  
-- Icons and legends that sit in clear whitespace outside the main chart area
+- Icons and legends placed in clean whitespace outside the main chart area  
 
 The visual system is intentionally modular so it can be extended or reused with new datasets.
+
+---
 
 ### Predictive Thinking
 
@@ -172,14 +208,16 @@ While the final project is visualization focused, the structure is ready for fut
 
 An interactive scatter plot that analyzes the relationship between engagement level and weekly VR usage hours.
 
-- X-axis: Engagement Level (1 to 5)  
-- Y-axis: Hours of VR Usage Per Week  
-- Color: Dataset source (Impact vs Modified Education)  
-- Fill: VR users vs non-users  
-- Interactions:  
-  - Toggle datasets on and off  
-  - Option to show only VR users  
-  - Hover tooltips with detailed student level information  
+- **X-axis:** Engagement Level (1 to 5)  
+- **Y-axis:** Hours of VR Usage Per Week  
+- **Color:** Dataset source (Impact vs Modified Education)  
+- **Fill:** VR users vs non-users  
+
+Interactions:
+
+- Toggle datasets on and off  
+- Option to show only VR users  
+- Hover tooltips with detailed student level information  
 
 This view connects directly to questions about how usage relates to engagement and which groups cluster at certain engagement levels.
 
@@ -189,21 +227,23 @@ This view connects directly to questions about how usage relates to engagement a
 
 A grouped bar chart that visualizes user distribution across age ranges and education levels.
 
-- X-axis: Age groups in 5 year bands  
-- Y-axis: Count of users  
-- Color: Education level (High School, Undergraduate, Postgraduate)  
-- Interactions:  
-  - Filter by education level  
-  - Hover to display exact counts  
-  - Compare bars within each age group  
+- **X-axis:** Age groups in 5 year bands  
+- **Y-axis:** Count of users  
+- **Color:** Education level (High School, Undergraduate, Postgraduate)  
 
-This supports questions about how user demographics shift as age and education level change.
+Interactions:
+
+- Filter by education level  
+- Hover to display exact counts  
+- Compare bars within each age group  
+
+This helps answer questions about how user counts shift across demographic categories.
 
 ---
 
 ### Headset Comparison Panels
 
-A three panel spread for the three tracked headsets:
+A three panel spread for the tracked headsets:
 
 1. PlayStation VR  
 2. HTC Vive  
@@ -216,7 +256,7 @@ Each panel shows how users of that headset differ by:
 - Session duration  
 - Demographic patterns  
 
-The trees and supporting visuals make it easier to compare comfort and usage across headsets without losing context.
+These views support comparisons of comfort and usage behavior across headsets and feed directly into the headset focused research questions.
 
 ---
 
@@ -224,8 +264,8 @@ The trees and supporting visuals make it easier to compare comfort and usage acr
 
 A radar chart that compares average metrics by gender:
 
-- Metrics: Average Age, Motion Sickness, Duration, Immersion  
-- Genders: Male, Female, Other  
+- **Metrics:** Average Age, Motion Sickness, Duration, Immersion  
+- **Genders:** Male, Female, Other  
 
 Interactions:
 
@@ -233,7 +273,7 @@ Interactions:
 - Hover on each point to see metric name and exact value  
 - Hover near the center to show a summary across all visible genders  
 
-This plays directly into questions about demographic differences and how various groups experience VR.
+This supports questions about gender based differences in VR outcomes and how demographics shape comfort and immersion.
 
 ---
 
@@ -241,19 +281,21 @@ This plays directly into questions about demographic differences and how various
 
 A view built from the assistive technology dataset that focuses on regional access and training availability.
 
-- Displays which regions and countries report available training for different assistive technology categories  
+- Breaks down training availability by region and country  
 - Highlights gaps and uneven distribution across regions  
-- Helps answer questions about geographic patterns and equity in access
+- Connects directly to questions about spatial patterns and where the United States sits relative to other regions  
 
 ---
 
 ### Impact and Education Charts
 
-This set of visuals ties VR adoption to improvements in learning outcomes:
+These visuals tie VR adoption to engagement and improvements in learning outcomes:
 
-- Compares VR users and non-users on engagement and outcomes  
-- Looks at patterns by education level and region  
-- Shows which combinations appear to benefit most from VR usage  
+- Compare VR users and non-users  
+- Break out results by education level and region  
+- Highlight which groups show the strongest improvement when VR is available  
+
+These charts are used to answer questions around how many students use VR and how that relates to engagement and learning improvements.
 
 ---
 
@@ -263,9 +305,9 @@ This set of visuals ties VR adoption to improvements in learning outcomes:
 
 - Younger male users show higher motion sickness.  
 - Female users tend to stay longer in VR and report smoother experiences.  
-- Other gender groups show the widest range in values, which is partly due to smaller sample size.  
+- Other gender groups show the widest range in values, partly due to smaller sample sizes.  
 
-These patterns suggest that comfort is not evenly distributed across demographic groups.
+These patterns answer questions about how age and gender influence motion sickness, immersion, and duration.
 
 ---
 
@@ -275,16 +317,16 @@ These patterns suggest that comfort is not evenly distributed across demographic
 - PlayStation VR has the largest user count in the dataset.  
 - Oculus Rift tends to sit in the middle for both duration and sickness.  
 
-This answers the question of how headsets differ in comfort and usage behavior.
+These findings address how the three headsets differ in comfort and immersion and confirm that headset model does correlate with user experience.
 
 ---
 
 ### Immersion vs Duration
 
-- Longer sessions raise both immersion and discomfort at the same time.  
-- Frequent users appear to adapt more quickly and report lower sickness over time.  
+- Longer sessions increase both immersion and discomfort at the same time.  
+- Frequent users adapt to VR and tend to report lower sickness over time.  
 
-This supports the idea that behavior and exposure patterns shape how comfortable VR feels.
+These patterns answer questions about behavioral factors and how duration shapes both comfort and immersion.
 
 ---
 
@@ -293,42 +335,47 @@ This supports the idea that behavior and exposure patterns shape how comfortable
 - Assistive technology training is uneven globally.  
 - Regions with stronger infrastructure and funding report more consistent training availability.  
 - Under resourced regions show clear gaps in access.  
+- The United States falls into the higher access group when compared to global data.  
 
-This connects directly to the questions about spatial patterns and how different regions compare, including the United States.
+These insights answer questions about geographic differences, spatial patterns, and where the United States sits in terms of assistive technology.
 
 ---
 
-### Summary of Question Coverage
+### Question Coverage Summary
 
-- Headset differences, gender impact, and behavioral factors are covered in the VR Experience and tree based visuals.  
-- Geographic and regional questions are covered through the assistive technology view.  
-- Student adoption and engagement are explored in the education based scatter plots and bar charts.  
-- Risk factors are inferred from combinations of age, duration, sickness, and headset type, with modeling left as future work.
+- Headset differences, gender impact, and behavioral factors are covered through the VR Experience, radar chart, and comparison panels.  
+- Geographic and regional questions are explored through the assistive technology view.  
+- Student adoption and engagement are examined in the education based scatter and bar charts.  
+- Risk factors are inferred from combinations of age, duration, sickness, and headset type, with more formal modeling listed as future work.  
 
 ---
 
 ## Sketches
 
-Before building the final visuals, I sketched out several structures.
+Before building the final visuals, I sketched several structures that guided the design.
 
 ### Risk Factor Tree
 
-A hierarchy that shows:
+Hierarchy showing:
 
 - All users  
 - Device  
 - Gender  
 - Comfort risk level  
 
-This helped shape the tree layout used in the VR Experience views.
+This informed the VR Experience tree layout.
+
+---
 
 ### Comfort Severity Heatmap
 
-A grid concept where rows represented headsets and columns represented demographics or behaviors. Each cell encoded average discomfort. This idea informed the way I think about combining metrics, even if the final design moved toward trees and radar charts.
+A grid where rows represent headsets and columns represent demographic or behavioral slices. Each cell encodes average discomfort. The final design moved toward trees and radar charts, but this heatmap idea shaped how I grouped metrics.
+
+---
 
 ### Predictive Model Flow Diagram
 
-A simple flow from input features:
+A flow diagram that moves from input features:
 
 - Age  
 - Gender  
@@ -336,13 +383,13 @@ A simple flow from input features:
 - Session duration  
 - Experience level  
 
-Into outputs such as:
+to outputs like:
 
 - Comfort score  
 - Immersion rating  
 - Risk probability  
 
-This is not fully implemented yet, but the diagram guided how I structured the data.
+The diagram guided how I structured the data and how I think about future modeling.
 
 ---
 
@@ -350,24 +397,24 @@ This is not fully implemented yet, but the diagram guided how I structured the d
 
 - Identify what makes VR comfortable or uncomfortable  
 - Compare major headset demographics and behavioral patterns  
-- Understand consumer and student behavior and how it relates to VR outcomes  
-- Prepare the data and structure for predictive models of comfort, immersion, and engagement  
+- Understand how consumer and student behavior relates to VR outcomes  
+- Prepare data and structure for predictive models of comfort, immersion, and engagement  
 - Produce clear, interpretable visualization prototypes that support exploration and decision making  
 
 ---
 
 ## Why This Project Matters
 
-VR is rapidly entering entertainment, education, therapy, and accessibility spaces. Understanding user comfort and risk factors is not optional if we care about long term adoption.
+VR is rapidly entering entertainment, education, therapy, and accessibility. Understanding user comfort and risk factors is critical if we want healthy, sustainable adoption.
 
 This project matters because it:
 
-- Surfaces hidden patterns in how different people experience VR  
+- Surfaces real patterns in how different people experience VR  
 - Helps developers think about comfort and risk in a structured way  
-- Gives educators insight into which groups benefit most from VR  
-- Highlights geographic and accessibility gaps that need attention  
+- Gives educators insight into how VR relates to engagement and outcomes  
+- Highlights accessibility and regional gaps that deserve attention  
 
-At the same time, the project shows how multidataset visualizations can tell a bigger story than any single dataset on its own.
+It also shows how multidataset visualizations can tell a bigger and more honest story than any single dataset on its own.
 
 ---
 
@@ -483,31 +530,23 @@ These represent alternate ways to encode similar information or early tests of n
 
 ## Milestones
 
-- Built the first scatter plot visual.  
-- Successfully imported and cleaned multiple CSV documents.  
-- Iterated the scatter plot into a more meaningful layout tied directly to engagement.  
-- Designed and implemented the three headset comparison views.  
-- Added the radar chart and connected it to gender and headset filters.  
-- Integrated the assistive technology view for regional context.
-
----
-
-## Why This Project Matters
-
-VR design needs to be based on how people actually experience it, not how we hope they experience it. This project makes those patterns clearer and more visual. Developers can use these insights to build safer and more immersive environments. Educators can see how VR affects learning. Policy makers can identify where support is missing and how access is distributed.
-
-At the same time, this project shows how multidataset visualizations can tell a bigger and more honest story than any single dataset can.
+- Built the first scatter plot visual  
+- Successfully imported and cleaned multiple CSV documents  
+- Iterated the scatter plot into a more meaningful layout tied directly to engagement  
+- Designed and implemented the three headset comparison views  
+- Added the radar chart and connected it to gender and headset filters  
+- Integrated the assistive technology view for regional context  
 
 ---
 
 ## Future Work
 
-- Build a predictive comfort model using regression or classification.  
-- Add session frequency and experience level into the main views.  
-- Expand the radar chart to include more variables such as stress or familiarity.  
-- Develop a full dashboard that combines all views into one interface for decision makers.  
-- Compare VR data with AR datasets for a more complete picture.  
-- Add time based analysis where datasets support it, especially for adoption trends.  
+- Build a predictive comfort model using regression or classification  
+- Add session frequency and experience level into the main views  
+- Expand the radar chart to include more variables such as stress or familiarity  
+- Develop a full dashboard that combines all views into one interface for decision makers  
+- Compare VR data with AR datasets for a more complete picture  
+- Add time based analysis where datasets support it, especially for adoption trends  
 
 The architecture is already set up for expansion. The next step is deeper modeling and more refined interaction design.
 
@@ -517,7 +556,7 @@ The architecture is already set up for expansion. The next step is deeper modeli
 
 ### VizHub Projects  
 
-Replace with your final list of URLs or keep the links listed above in the Prototypes and Open Questions sections.
+(Insert final list of URLs or keep the links listed above in Prototypes and Open Questions.)
 
 ### GitHub Repository  
 
