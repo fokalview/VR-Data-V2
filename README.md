@@ -1,33 +1,33 @@
-# VR Data Visualization Project  
-A multidataset breakdown of VR engagement, comfort, and user patterns
+# **Abstract**  
+This project brings together several VR datasets into one interactive system that shows how different people experience virtual reality. The visuals highlight patterns in comfort, immersion, usage behavior, and accessibility by combining demographic, headset, and educational data into a single exploration environment.
 
 ---
 
-## Abstract
+# **Project Overview**  
+VR affects every user differently. Comfort, immersion, and engagement shift based on age, gender, session duration, and the type of headset being used. Instead of analyzing these datasets separately, I merged them into one framework so I could study the full picture.
 
-This project pulls together several independent VR datasets and turns them into a connected visualization system that helps explain how real people experience virtual reality. Instead of treating demographic data, headset usage, immersion scores, and assistive technology availability as separate stories, I combined them into one interactive environment using D3.js.
+The project connects data from education, user experience, assistive technology, and headset performance. Using D3.js, I built an interactive set of charts that reveal how these factors work together. The goal is simple: make it easier to understand what drives VR comfort, what predicts discomfort, and how different groups behave inside virtual environments.
 
-The goal is simple. Understand what makes VR comfortable, what makes it uncomfortable, and how those factors shift depending on who you are and what you are using. The project uses scatter plots, radar charts, icon based filters, and responsive tooltips to create a clear picture of VR usage patterns across multiple populations. This work is both a technical demonstration and a practical exploration of how design and data can work together to support better VR decisions.
+This work is a mix of research, technical design, and visual storytelling. It demonstrates how multidataset analysis can expose patterns that would be invisible in isolation.
 
 ---
----
 
-## At a Glance
+# **At a Glance**
 
-**Tech Stack**  
+### **Tech Stack**
 - D3.js  
 - JavaScript  
 - CSV based data pipeline  
 - VizHub for hosting and rendering  
 
-**Core Visuals**  
+### **Core Visuals**
 - Engagement scatter plot  
 - Users demographic bar chart  
 - Three headset comparison panels  
 - Gender based radar chart  
-- Assistive technology regional view  
+- Assistive technology world view  
 
-**Key Metrics Tracked**  
+### **Key Metrics Tracked**
 - Immersion level  
 - Motion sickness  
 - Session duration  
@@ -36,33 +36,12 @@ The goal is simple. Understand what makes VR comfortable, what makes it uncomfor
 - Engagement levels in education  
 - Regional training access  
 
-**Main Questions Answered**  
-- How the three headsets differ in comfort and immersion  
-- How age and gender shape VR outcomes  
-- What usage patterns predict higher immersion or sickness  
-- How assistive tech varies across regions  
-- How many students use VR and how it affects engagement  
-
-**Project Purpose**  
-Turn multiple VR datasets into a unified interactive system that shows how different groups experience VR and why those experiences differ. This project is part research, part visual architecture, and part portfolio ready storytelling.
-
----
-
-## Introduction
-
-VR is growing fast in entertainment, education, and training, but not everyone experiences it the same way. Some people get immersed. Others get sick. Some groups stay in VR longer and feel more comfortable. Some regions have strong access to assistive technology. Others barely have any.
-
-This project started because I wanted to make sense of all these differences in one place. I imported multiple CSVs, cleaned them, and built out a workflow that connects headset type, gender, age, session duration, motion sickness, immersion, and educational access. From there, I built interactive charts that let me filter, compare, and break down patterns that are not obvious when looking at each dataset alone.
-
-The entire visualization is designed around exploration. You can switch between datasets, filter the visuals by gender or headset, and highlight sections to understand exactly how different groups behave in VR. This project is part research, part portfolio piece, and part personal curiosity about how VR affects people differently.
-
----
-
-## Project Overview
-
-This project examines how different groups of people experience virtual reality depending on their demographics, hardware choices, and behavioral tendencies. Instead of relying on a single dataset, the analysis synthesizes insights from multiple Kaggle sources covering VR usage, headset adoption, emotional response, consumer behaviors, immersion scores, and accessibility conditions.
-
-The central goal is to understand what factors predict comfort, discomfort, and overall immersion in VR systems. The project uses descriptive visualizations and a structure that can support predictive modeling in later versions to uncover meaningful patterns that shape VR user experience.
+### **Main Questions Answered**
+- How do the three headsets differ in comfort and immersion?  
+- How do age and gender influence VR outcomes?  
+- What usage patterns predict higher immersion or discomfort?  
+- How does assistive technology access vary across regions?  
+- How many students use VR and how does it affect engagement?  
 
 ---
 
