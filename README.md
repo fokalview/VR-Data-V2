@@ -497,19 +497,6 @@ Hierarchy showing:
 
 This informed the VR Experience tree layout.
 
-Here are a few examples of estimates layouts. 
-
-<div align="center">
-
-[![Sketch Page 1](https://github.com/fokalview/VR-Data-V2/blob/master/sketch_Page_1.jpg)](https://github.com/fokalview/VR-Data-V2/blob/master/sketch_Page_1.jpg)
-
-[![Sketch Page 2](https://github.com/fokalview/VR-Data-V2/blob/master/sketch_Page_2.jpg)](https://github.com/fokalview/VR-Data-V2/blob/master/sketch_Page_2.jpg)
-
-[![Sketch Page 3](https://github.com/fokalview/VR-Data-V2/blob/master/sketch_Page_3.jpg)](https://github.com/fokalview/VR-Data-V2/blob/master/sketch_Page_3.jpg)
-
-</div>
-
-
 ---
 
 ### Comfort Severity Heatmap
@@ -535,6 +522,22 @@ to outputs like:
 - Risk probability  
 
 The diagram guided how I structured the data and how I think about future modeling.
+
+---
+
+### Sketch Drawings 
+
+Here are a few examples of estimates layouts. 
+
+<div align="center">
+
+[![Sketch Page 1](https://github.com/fokalview/VR-Data-V2/blob/master/sketch_Page_1.jpg)](https://github.com/fokalview/VR-Data-V2/blob/master/sketch_Page_1.jpg)
+
+[![Sketch Page 2](https://github.com/fokalview/VR-Data-V2/blob/master/sketch_Page_2.jpg)](https://github.com/fokalview/VR-Data-V2/blob/master/sketch_Page_2.jpg)
+
+[![Sketch Page 3](https://github.com/fokalview/VR-Data-V2/blob/master/sketch_Page_3.jpg)](https://github.com/fokalview/VR-Data-V2/blob/master/sketch_Page_3.jpg)
+
+</div>
 
 ---
 
