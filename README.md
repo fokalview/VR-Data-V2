@@ -313,6 +313,24 @@ These views support comparisons of comfort and usage behavior across headsets an
 
 ---
 
+[![image](https://github.com/fokalview/VR-Data-V2/blob/master/Panel.jpg)](https://vizhub.com/fokalview/f2e723cc55194e98ab325c524371c4e4)
+
+<div align="center">
+
+### Headset Comparison Panel
+</div>
+
+--- 
+
+
+[![image](https://github.com/fokalview/VR-Data-V2/blob/master/panelsum.jpg)](https://vizhub.com/fokalview/f2e723cc55194e98ab325c524371c4e4)
+
+<div align="center">
+
+### Headset Sum Comparison Panel
+</div>
+
+--- 
 <p align="center">
   <img src="YOUR_IMAGE_PATH_HERE" alt="VR Data Visualization Project Title Slide" width="750">
 </p>
@@ -334,7 +352,17 @@ Interactions:
 
 This supports questions about gender based differences in VR outcomes and how demographics shape comfort and immersion.
 
----
+--- 
+
+
+[![image](https://github.com/fokalview/VR-Data-V2/blob/master/radar.jpg)](https://vizhub.com/fokalview/f2e723cc55194e98ab325c524371c4e4)
+
+<div align="center">
+
+### Headset Comparison Panel
+</div>
+
+--- 
 
 <p align="center">
   <img src="YOUR_IMAGE_PATH_HERE" alt="VR Data Visualization Project Title Slide" width="750">
@@ -351,6 +379,25 @@ A view built from the assistive technology dataset that focuses on regional acce
 - Connects directly to questions about spatial patterns and where the United States sits relative to other regions  
 
 ---
+
+[![image](https://github.com/fokalview/VR-Data-V2/blob/master/Assistive%20Tech%20World%20Map.jpg)](https://vizhub.com/fokalview/634ce52577aa4d509d022628e38526c3)
+
+<div align="center">
+
+### Assistive Technology View
+</div>
+
+---
+
+[![image](https://github.com/fokalview/VR-Data-V2/blob/master/Training%20Content.jpg)](https://vizhub.com/fokalview/634ce52577aa4d509d022628e38526c3)
+
+<div align="center">
+
+### Assistive Training View
+</div>
+
+---
+
 ## 🎥 Video Demo
 
 [Download / View the full project walkthrough video (Assistive Tech World Map)](https://github.com/fokalview/VR-Data-V2/blob/master/Assistive%20Tech%20World%20Map.avi)
@@ -373,6 +420,15 @@ These visuals tie VR adoption to engagement and improvements in learning outcome
 - Highlight which groups show the strongest improvement when VR is available  
 
 These charts are used to answer questions around how many students use VR and how that relates to engagement and learning improvements.
+
+---
+
+[![image](https://github.com/fokalview/VR-Data-V2/blob/master/Users.jpg)](https://vizhub.com/fokalview/634ce52577aa4d509d022628e38526c3)
+
+<div align="center">
+
+### User View
+</div>
 
 ---
 
