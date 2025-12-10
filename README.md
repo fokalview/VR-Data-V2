@@ -420,6 +420,12 @@ These insights answer questions about geographic differences, spatial patterns, 
 
 ---
 
+<p align="center">
+  <img src="YOUR_IMAGE_PATH_HERE" alt="VR Data Visualization Project Title Slide" width="750">
+</p>
+
+---
+
 ### Question Coverage Summary
 
 - Headset differences, gender impact, and behavioral factors are covered through the VR Experience, radar chart, and comparison panels.  
