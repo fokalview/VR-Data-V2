@@ -294,6 +294,10 @@ This helps answer questions about how user counts shift across demographic categ
 
 ---
 
+## [🎥 Engagement and USer Video Demo](https://youtu.be/s6zNhENpXNE)
+
+---
+
 ### Headset Comparison Panels
 
 A three panel spread for the tracked headsets:
@@ -313,7 +317,7 @@ These views support comparisons of comfort and usage behavior across headsets an
 
 ---
 
-[![image](https://github.com/fokalview/VR-Data-V2/blob/master/Panel.jpg)](https://vizhub.com/fokalview/f2e723cc55194e98ab325c524371c4e4)
+[![image](https://github.com/fokalview/VR-Data-V2/blob/master/panelcombined.jpg)](https://vizhub.com/fokalview/f2e723cc55194e98ab325c524371c4e4)
 
 <div align="center">
 
@@ -398,16 +402,19 @@ A view built from the assistive technology dataset that focuses on regional acce
 
 ---
 
-## 🎥 Video Demo
+## 🎥 Video Demo (Play)
+---
+
+<video controls width="750">
+  <source src="https://raw.githubusercontent.com/fokalview/VR-Data-V2/master/Assistive%20Tech%20World%20Map.mp4" type="video/mp4">
+  Your browser does not support embedded videos.
+</video>
+
+---
 
 [Download / View the full project walkthrough video (Assistive Tech World Map)](https://github.com/fokalview/VR-Data-V2/blob/master/Assistive%20Tech%20World%20Map.avi)
 
 > Note: Some browsers may prompt to download the video file.
-
-
-<p align="center">
-  <img src="YOUR_IMAGE_PATH_HERE" alt="VR Data Visualization Project Title Slide" width="750">
-</p>
 
 ---
 
@@ -464,13 +471,7 @@ These patterns answer questions about how age and gender influence motion sickne
 
 These findings address how the three headsets differ in comfort and immersion and confirm that headset model does correlate with user experience.
 
----
 
-<p align="center">
-  <img src="YOUR_IMAGE_PATH_HERE" alt="VR Data Visualization Project Title Slide" width="750">
-</p>
-
----
 
 ### Immersion vs Duration
 
@@ -495,12 +496,6 @@ These patterns answer questions about behavioral factors and how duration shapes
 - The United States falls into the higher access group when compared to global data.  
 
 These insights answer questions about geographic differences, spatial patterns, and where the United States sits in terms of assistive technology.
-
----
-
-<p align="center">
-  <img src="YOUR_IMAGE_PATH_HERE" alt="VR Data Visualization Project Title Slide" width="750">
-</p>
 
 ---
 
